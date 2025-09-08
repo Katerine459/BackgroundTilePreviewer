@@ -9,7 +9,7 @@ This simple utility takes a "spritesheet" of possible repeating background tiles
 
 It also shows information indicating the tile in the spritesheet you're looking at.
 
-Example render, previewing a tile from the "Grasses32x32_resized128x128.png" file:
+Example render, previewing a tile from the "Grasses32x32_resized128x128.png" file (it looks blocky because the textures in that png file are meant to have an 8-bit feel. Your textures may be very different):
 <img width="1280" height="749" alt="image" src="https://github.com/user-attachments/assets/6e751e3e-9e54-4cfd-9b56-3ef0e45ecefc" />
 
 There are two constructors: a simple one (for spritesheets that don't have any margins or spacing between tiles):
