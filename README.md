@@ -1,8 +1,8 @@
 # Background Tile Previewer
 
 ## Dependencies:
-C++ 17+
-SFML 3.0
+* C++ 17+
+* SFML 3.0
 
 ## About:
 This simple utility takes a "spritesheet" of possible repeating background tiles, and allows you to scroll through them (using the mouse or spacebar), previewing what each of them look like when displayed as a tiled background.
