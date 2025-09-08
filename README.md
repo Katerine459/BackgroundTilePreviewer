@@ -14,16 +14,24 @@ Example render, previewing a tile from the "Grasses32x32_resized128x128.png" fil
 
 There are two constructors: a simple one (for spritesheets that don't have any margins or spacing between tiles):
 
+Constructor: \
+`BackgroundTilePreviewer(std::string file_addr, int x_tile_size, int y_tile_size);`
+
+x_ and y_tile_size are the width and height (respectively) of the individual tiles you want returned, in pixels.
+
+Example: \
 `BackgroundTilePreviewer preview("tileGrasses128x128.png", 128, 128);`
 
-^This takes 3 arguments: the file address, the width (size-x) (in pixels) and the height (size-y) (in pixels).
+There's also a more complicated constructor, for situations where you have a tileset with margins and/or spacing between the tiles:
 
-There's also a more complicated constructor, for situations where you have a tileset with margins and/or spacing in-between the tiles:
+Constructor: \
+`BackgroundTilePreviewer(std::string file_addr, int x_tile_size, int y_tile_size, int x_offset, int y_offset, int x_offset_between, int y_offset_between);`
 
+x_ and y_offset are the left and top margins (in pixels) respectively. x_ and y_offset_between are the spacing between the different tiles (in pixels).
+
+Example: \
 `BackgroundTilePreviewer preview("Grasses32x32_resized128x128.png", 128, 128, 4, 4, 12, 12);`
 
-^The two 4's in the above line indicate the margins in that tileset (x, y). The two 12's indicate how many pixels are between the tiles (x, y).
-
-It's provided as-is; it's something I made for my own use, and am just sharing in case anybody else finds it useful.
+This code is provided as-is; it's something I made for my own use, and am just sharing in case anybody else finds it useful.
 
 Please feel free to use, but do not distribute and pass it off as your own.
