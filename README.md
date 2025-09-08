@@ -9,7 +9,7 @@ Quite simply, this simple utility takes a "spritesheet" of possible repeating ba
 
 It also shows information about which tile in the spritesheet you're looking at (0-based, so the "2 image in the 0 row" is the third image in the first row).
 
-Example render:
+Example render from the "Grasses32x32_resized128x128.png" file:
 <img width="1277" height="749" alt="image" src="https://github.com/user-attachments/assets/89c97bb0-f757-4518-8da2-f851ffab664c" />
 
 There are two constructors: a simple one (for spritesheets that don't have any margins or spacing between tiles):
