@@ -18,7 +18,7 @@ private:
 	sf::RenderWindow window;
 
 	short xIndex = 0, yIndex = 0; // = 0 for the first tile in a row/column, 1 for the second tile, and so forth.
-	short xOffset = 0, yOffset = 0, xOffsetBetween = 0, yOffsetBetween = 0; //Untested. Numbers are in pixels. For things like https://donitz.itch.io/procedural-tileset-generator, which has downloads where the tiles are separated by a few pixels. 0 is default. Use the more complicated constructor if this needs to change. (or just do a Zealous crop in the Gimp :) )
+	short xOffset = 0, yOffset = 0, xOffsetBetween = 0, yOffsetBetween = 0; //Numbers are in pixels. For things like https://donitz.itch.io/procedural-tileset-generator, which has downloads where the tiles are separated by a few pixels. 0 is default. Use the more complicated constructor if this needs to change. (or just do a Zealous crop in the Gimp :) )
 	sf::Vector2i tileSize;
 	sf::Vector2i texCoord;
 
@@ -52,5 +52,6 @@ public:
 
 	void running();
 };
+
 
 #endif // BACKGROUNDTILEPREVIEWER_H
