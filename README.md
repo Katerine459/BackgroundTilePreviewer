@@ -1,4 +1,4 @@
-# Tile Previewer
+# Background Tile Previewer
 
 ## Dependencies:
 C++ 17+
