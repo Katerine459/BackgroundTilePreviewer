@@ -7,10 +7,10 @@ SFML 3.0
 ## About:
 Quite simply, this simple utility takes a "spritesheet" of possible repeating background tiles, and allows you to scroll through them (using the mouse or spacebar), previewing what each of them look like when displayed as a tiled background.
 
-It also shows information about which tile in the spritesheet you're looking at (0-based, so the "2 image in the 0 row" is the third image in the first row).
+It also shows information about which tile in the spritesheet you're looking at.
 
 Example render, looking at the "Grasses32x32_resized128x128.png" file:
-<img width="1277" height="749" alt="image" src="https://github.com/user-attachments/assets/89c97bb0-f757-4518-8da2-f851ffab664c" />
+<img width="1280" height="749" alt="image" src="https://github.com/user-attachments/assets/6e751e3e-9e54-4cfd-9b56-3ef0e45ecefc" />
 
 There are two constructors: a simple one (for spritesheets that don't have any margins or spacing between tiles):
 
