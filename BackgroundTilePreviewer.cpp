@@ -89,10 +89,10 @@ void BackgroundTilePreviewer::setAboutText()
 
 	xCoordS = std::to_string(texCoord.x);
 	yCoordS = std::to_string(texCoord.y);
-	xIdxS = std::to_string(xIndex);
-	yIdxS = std::to_string(yIndex);
+	xIdxS = std::to_string(xIndex + 1);
+	yIdxS = std::to_string(yIndex + 1);
 
-	about = "Viewing the " + xIdxS + " image in the " + yIdxS + " row. Coords: {" + xCoordS + ", " + yCoordS + "}";
+	about = "Image, Row " + yIdxS + ", Col " + xIdxS + ". Coords: {" + xCoordS + ", " + yCoordS + "}";
 	aboutText.setString(about);
 	
 	textWidth = aboutText.getLocalBounds().size.x;
@@ -169,3 +169,4 @@ void BackgroundTilePreviewer::running()
 		rendering();
 	}
 }
+
