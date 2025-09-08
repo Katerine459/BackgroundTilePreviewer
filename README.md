@@ -5,7 +5,7 @@ C++ 17+
 SFML 3.0
 
 ## About:
-Quite simply, this simple utility takes a "spritesheet" of possible repeating background tiles, and allows you to scroll through them, previewing what each of them look like when displayed as a tiled background.
+Quite simply, this simple utility takes a "spritesheet" of possible repeating background tiles, and allows you to scroll through them (using the mouse or spacebar), previewing what each of them look like when displayed as a tiled background.
 
 It also shows information about which tile in the spritesheet you're looking at (0-based, so the "2 image in the 0 row" is the third image in the first row).
 
